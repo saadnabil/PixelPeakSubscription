@@ -242,7 +242,7 @@ Dedicated to transforming your digital visions into reality, right at your doors
                   <!-- Notify Contact Form Start-->
                   <form action ="{{ route('subscribe') }}" class="form notify-form" method="post">
                     {{ csrf_field() }}
-                    <input value="" class="margin-s" type="email" autocomplete="off" placeholder="Email Adress*" required="" name="email">
+                    <input value=""  autocomplete="off" class="margin-s" type="email" placeholder="Email Adress*" required="" name="email">
                     <span class="inputs-description">*Required fields</span>
                     <button  type="submit" class="btn btn-solid link-l" type="submit" id="btnSubmit">
                       <span>Send</span>
